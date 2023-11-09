@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+  /* Estilo para telas menores */
+  #container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilo para telas médias */
+}
+
+@media (min-width: 1024px) {
+  /* Estilo para telas maiores */
+  #container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
