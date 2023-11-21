@@ -33,6 +33,7 @@ const BoxWhiteLogin = () => {
         idImg={"img-input-login-password"}
         idInput={"input-login-password"}
       />
+      <button id="botao-login" type="submit">Continuar</button>
     </div>
   );
 };

@@ -26,14 +26,14 @@
 
   #logo-senai {
     position: absolute;
-    margin-top: 550px;
+    margin-top: 570px;
     margin-left: 51px;
   }
 
   #title-app {
     position: absolute;
     background-color: transparent;
-    width: 200px;
+    width: 250px;
     height: 500px;
     margin-top: 37px;
     margin-left: 24px;
@@ -49,11 +49,33 @@
   #title-login {
     position: absolute;
     background-color: transparent;
-    margin-top: 290px;
+    margin-top: 300px;
     margin-left: 100px;
     color: #060606;
     font-family: Sansation;
     font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #botao-login {
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    border: none;
+    margin-top: 480px;
+    margin-left: -175px;
+    border-radius: 30px;
+    background: linear-gradient(
+      180deg,
+      #1570b1 27.6%,
+      rgba(30, 144, 226, 0.48) 73.44%
+    );
+    color: #fff;
+
+    font-family: Sansation;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -126,6 +148,28 @@
     font-weight: 400;
     line-height: normal;
   }
+
+  #botao-login {
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    border: none;
+    margin-top: -270px;
+    margin-left: 430px;
+    border-radius: 30px;
+    background: linear-gradient(
+      180deg,
+      #1570b1 27.6%,
+      rgba(30, 144, 226, 0.48) 73.44%
+    );
+    color: #fff;
+
+    font-family: Sansation;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -190,6 +234,28 @@
     color: #060606;
     font-family: Sansation;
     font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #botao-login {
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    border: none;
+    margin-top: -250px;
+    margin-left: 610px;
+    border-radius: 30px;
+    background: linear-gradient(
+      180deg,
+      #1570b1 27.6%,
+      rgba(30, 144, 226, 0.48) 73.44%
+    );
+    color: #fff;
+
+    font-family: Sansation;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

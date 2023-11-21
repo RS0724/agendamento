@@ -39,31 +39,31 @@
     height: 27px;
     border-radius: 20px;
     padding: 3px;
-    margin-left: 940px;
+    margin-left: 425px;
     background-color: #fff;
   }
 
   #input-login-email {
-    margin-top: 356px;
+    margin-top: -400px;
   }
 
   #input-login-password {
-    margin-top: 500px;
+    margin-top: -345px;
   }
 
   .img-login {
     position: absolute;
-    margin-left: 500px;
+    margin-left: 435px;
     z-index: 2;
     background-color: transparent;
   }
 
   #img-input-login-email {
-    margin-top: 500px;
+    margin-top: -397px;
   }
 
   #img-input-login-password {
-    margin-top: 438px;
+    margin-top: -343px;
   }
 }
 
@@ -79,28 +79,28 @@
 
   #input-login-email {
     position: absolute;
-    margin-top: 356px;
-    margin-left: 680px;
+    margin-top: -386px;
+    margin-left: 600px;
   }
 
   #input-login-password {
     position: absolute;
-    margin-top: 136px;
-    margin-left: 680px;
+    margin-top: -325px;
+    margin-left: 600px;
   }
 
   .img-login {
     position: absolute;
-    margin-left: 158px;
+    margin-left: 608px;
     z-index: 2;
     background-color: transparent;
   }
 
   #img-input-login-email {
-    margin-top: 158px;
+    margin-top: -382px;
   }
 
   #img-input-login-password {
-    margin-top: 158px;
+    margin-top: -323px;
   }
 }
