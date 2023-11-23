@@ -1,11 +1,14 @@
-import Login from './pages/Login'
+// import Login from './pages/Login'
+
+import Ambientes from "./pages/Ambientes";
 
 function App() {
   
 
   return (
     <>
-     <Login/> 
+    <Ambientes/>
+     {/* <Login/>  */}
     </>
   )
 }

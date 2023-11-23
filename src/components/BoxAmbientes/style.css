@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+  #boxambientes {
+    width: 340px;
+    height: 721px;
+    background-color: #fff;
+    border-radius: 55px;
+  }
+
+  #pesquisa {
+    width: 313px;
+    height: 42px;
+    fill: #fff;
+    border-radius: 50px;
+    stroke-width: 2px;
+    stroke: #716a6a;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+
+  #lupa {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 25px;
+    background-color: transparent;
+  }
+
+  #content-cards {
+    display: flex;
+    position: absolute;
+    width: 197px;
+    height: 500px;
+    margin-top: 91px;
+    margin-left: 75px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    background-color: transparent;
+  }
+
+  #frame {
+    margin-left: 15px;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}

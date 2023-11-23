@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 79px;
+    border-radius: 55px 55px 0px 0px;
+    background: rgba(30, 144, 226, 0.98);
+    border: 1px solid black;
+  }
+
+  #titleheader {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: transparent;
+   margin-left: 0px;
+  }
+
+  #menuamburg {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 260px;
+    background-color: transparent;
+  }
+}
+  
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}
