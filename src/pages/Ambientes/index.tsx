@@ -1,4 +1,5 @@
 import BoxAmbientes from "../../components/BoxAmbientes";
+import Modal from "../../components/Modal";
 import "./style.css"
 
 const Ambientes = () => {
@@ -6,6 +7,7 @@ const Ambientes = () => {
     <>
       <div id="container">
         <BoxAmbientes />
+        <Modal />
       </div>
     </>
   );

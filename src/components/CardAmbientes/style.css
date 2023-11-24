@@ -30,7 +30,63 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  #CardAmbientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    width: 181px;
+    height: 188px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 11px 11px 8px 3px rgba(0, 0, 0, 0.25);
+    gap: 5px;
+  }
+
+  #img-card {
+    background-color: transparent;
+  }
+
+  #title-card {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  } 
 }
 
 @media (min-width: 1024px) {
+  #CardAmbientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    width: 181px;
+    height: 188px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 11px 11px 8px 3px rgba(0, 0, 0, 0.25);
+    gap: 5px;
+  }
+
+  #img-card {
+    background-color: transparent;
+  }
+
+  #title-card {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  } 
 }

@@ -39,6 +39,7 @@
     flex-direction: column;
     gap: 30px;
     background-color: transparent;
+    overflow-y: scroll;
   }
 
   #frame {
@@ -48,7 +49,107 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  #boxambientes {
+    width: 920px;
+    height: 821px;
+    background-color: #fff;
+    border-radius: 55px;
+  }
+
+  #pesquisa {
+    width: 313px;
+    height: 42px;
+    fill: #fff;
+    border-radius: 50px;
+    stroke-width: 2px;
+    stroke: #716a6a;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 312px;
+  }
+
+  #lupa {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 325px;
+    background-color: transparent;
+  }
+
+  #content-cards {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); /*3 colunas */
+    position: absolute;
+    width: 197px;
+    height: 500px;
+    margin-top: 131px;
+    margin-left: 115px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 60px;
+    background-color: transparent;
+  }
+
+  #frame {
+    display: flex;
+    position: absolute;
+    margin-top: 521px;
+    margin-left: 275px;
+    background-color: transparent;
+  }
 }
 
 @media (min-width: 1024px) {
+  #boxambientes {
+    width: 920px;
+    height: 821px;
+    background-color: #fff;
+    border-radius: 55px;
+  }
+
+  #pesquisa {
+    width: 313px;
+    height: 42px;
+    fill: #fff;
+    border-radius: 50px;
+    stroke-width: 2px;
+    stroke: #716a6a;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 312px;
+  }
+
+  #lupa {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 325px;
+    background-color: transparent;
+  }
+
+  #content-cards {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); /*3 colunas */
+    position: absolute;
+    width: 197px;
+    height: 500px;
+    margin-top: 131px;
+    margin-left: 115px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 80px;
+    background-color: transparent;
+  }
+
+  #frame {
+    display: flex;
+    position: absolute;
+    margin-top: 521px;
+    margin-left: 275px;
+    background-color: transparent;
+  }
 }
