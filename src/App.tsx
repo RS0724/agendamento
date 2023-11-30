@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    {/* <Ambientes/> */}
+    {/* <Ambientes exSwitchModal={switchModal} setSwitchModal={setSwitchModal}/> */}
      {/* <Login/>  */}
      <Agendamento exSwitchModal={switchModal} setSwitchModal={setSwitchModal} />
     </>
