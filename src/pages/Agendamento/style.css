@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+  #Agendamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 55px 55px 0px 0px;
+    background: rgba(25, 141, 225, 0.98);
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #Agendamento {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        flex-direction: column;
+        width: 181px;
+        height: 188px;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 11px 11px 8px 3px rgba(0, 0, 0, 0.25);
+        gap: 5px;
+      }
+}
+
+@media (min-width: 1024px) {
+    #Agendamento {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        flex-direction: column;
+        width: 181px;
+        height: 188px;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 11px 11px 8px 3px rgba(0, 0, 0, 0.25);
+        gap: 5px;
+      }
+}

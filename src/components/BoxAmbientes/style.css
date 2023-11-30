@@ -1,11 +1,5 @@
 @media (max-width: 767px) {
-  #boxambientes {
-    width: 340px;
-    height: 721px;
-    background-color: #fff;
-    border-radius: 55px;
-  }
-
+  
   #pesquisa {
     width: 313px;
     height: 42px;
@@ -49,13 +43,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  #boxambientes {
-    width: 920px;
-    height: 821px;
-    background-color: #fff;
-    border-radius: 55px;
-  }
-
+  
   #pesquisa {
     width: 313px;
     height: 42px;
@@ -102,12 +90,6 @@
 }
 
 @media (min-width: 1024px) {
-  #boxambientes {
-    width: 920px;
-    height: 821px;
-    background-color: #fff;
-    border-radius: 55px;
-  }
 
   #pesquisa {
     width: 313px;

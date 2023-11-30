@@ -69,7 +69,7 @@
             rgba(129, 188, 231, 0.21) 79.42%
           ),
           #fff;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: flex-start;
       }
@@ -86,7 +86,7 @@
       .span-modal {
         position: relative;
         background-color: transparent;
-        display: flex;
+        display: none;
         align-items: center;
         width: 356px;
         gap: 10px;

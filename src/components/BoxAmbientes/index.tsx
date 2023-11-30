@@ -1,12 +1,17 @@
 import CardAmbientes from "../CardAmbientes"
 import Header from "../Header"
 import "./style.css"
+interface IProps {
 
-const BoxAmbientes = () => {
+    setSwitchModal: React.Dispatch<React.SetStateAction<boolean>>;
+    
+  }
+
+const BoxAmbientes = ({setSwitchModal}: IProps) => {
     return <>
-    <div id="boxambientes">
+   
      
-    <Header titleHeader="Ambientes"/>
+    <Header titleHeader="Ambientes" setSwitchModal={setSwitchModal}/>
     <input id="pesquisa" type="text" />
     <img id="lupa" src="public/lupa.png" alt="" />
     
@@ -17,10 +22,9 @@ const BoxAmbientes = () => {
     <CardAmbientes img={"public/usinagem.png"} title={"Laboratório Usinagem"}/>
     <CardAmbientes img={"public/mecanica.png"} title={"Manutenção e Mecanica"}/>
     <CardAmbientes img={"public/eletrica.png"} title={"Laboratório Elétrica"}/>
-    <img id="frame" src="public/Frame 2.png" alt="" />
+    <img id="frame" src="public/Frame 2.png" alt="" onClick={()=>setSwitchModal(true)} />
     </div>
 
-    </div>
     </>
 }
 
